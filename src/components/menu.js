@@ -1,6 +1,6 @@
 export function menu(){
     return `
-        <ul class="navbar-nav text-light">
+        <ul class="navbar-nav text-light ">
             <li class="nav-item">
                 <a class="nav-link" href="#" id="paginaHome">Home</a>
             </li>

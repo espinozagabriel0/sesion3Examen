@@ -44,6 +44,8 @@ function pintaDatosPartida(partida){
     if(confirm("Quieres guardar la partida: ?") == true){
         insertaNuevaPartida(partida);
         pintaTabla(partidas)
+    }else{
+        console.log('Has cancelado la partida')
     }
 
 }

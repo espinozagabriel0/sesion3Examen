@@ -7,8 +7,9 @@ export function header(){
         <nav class="navbar navbar-light bg-body-tertiary text-light">
             <div class="container">
                 <a class="navbar-brand" href="#">${logo()}<a/>
+                ${menu()}
             </div>
-            ${menu()}
+            
         </nav>
         
     `;
