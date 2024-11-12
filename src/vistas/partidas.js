@@ -33,7 +33,7 @@ function insertaNuevaPartida(datos){
     partidas.push(datos);
 }
 
-insertaNuevaPartida({avatar: "👽", nick: "Paco", puntos: 2, fecha: "2024-11-12"});
+// insertaNuevaPartida({avatar: "👽", nick: "Paco", puntos: 2, fecha: "2024-11-12"});
 
 console.log(partidas);
 
@@ -47,7 +47,7 @@ function pintaDatosPartida(partida){
     }else{
         console.log('Has cancelado la partida')
     }
-
+    
 }
 
 pintaDatosPartida({ avatar: "👽", nick: "Paco", puntos: 2, fecha: "2024-11-12" });
